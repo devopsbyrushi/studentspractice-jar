@@ -25,7 +25,7 @@
         <version>2.6</version>
         <configuration>
           <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptorRef>war-with-dependencies</descriptorRef>
           </descriptorRefs>
           <archive>
             <manifest>
@@ -44,11 +44,11 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
+        <artifactId>maven-war-plugin</artifactId>
         <version>3.0.2</version>
         <executions>
           <execution>
-            <id>default-jar</id>
+            <id>default-war</id>
             <phase>none</phase>
           </execution>
         </executions>
